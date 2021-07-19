@@ -1,0 +1,79 @@
+body {
+    padding: 24px;
+    /* display: flex; */
+    /* escrevo só displa e dou enter p completar */
+    /* justify-content: space-around; */
+}
+
+.fundo {
+    background:url('../img/plano\ de\ fundo\ 3.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+#container {
+    font-family: 'Lobster', cursive;
+    color: aliceblue;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    color: white;
+    font-size: 18px;
+}
+
+#sinopse {
+    width: 350px;
+    height: 400px;
+    font-family: 'Heebo', sans-serif;
+}
+
+#ficha {
+    width: 500px;
+    height:200px;
+    margin-bottom: 40px;
+    float: right;
+    
+    
+}
+
+.centralizado{
+    margin-left: 180px;
+}
+
+#ficha img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    height:280px;
+    border-radius:20px;
+    box-shadow: rgb(252, 250, 250) 0px 22px 70px 4px;
+}
+
+.visivel {
+    display: block;
+}
+
+.escondido {
+    display: none;
+}
+
+#dragao {
+    margin-left: 100px;
+}
+
+#dragao h3, ul{
+    color: black;
+    
+}
+
+#dragao h3 {
+    
+    font-size: 30px;
+
+}
